@@ -10,7 +10,7 @@ metadata:
     - web
     - tanzu
   annotations:
-    app.kubernetes.io/part-of: tanzu-java-web-app-astelia
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-java-web-app-astelia' 
 spec:
   type: service
   lifecycle: experimental
